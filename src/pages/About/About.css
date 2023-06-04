@@ -1,0 +1,22 @@
+.about__main {
+    padding: 5rem;
+}
+.box__container {
+    background-color: #FFe6e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    width: 75vw;
+    border: 2px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .25);
+    margin: auto;
+}
+.box__left h1 {
+    display: flex;
+    justify-content: left;
+}
+.box__left img {
+    width: 9rem;
+}

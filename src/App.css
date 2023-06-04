@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;  
+}
+@keyframes example {
+  /* 0% {background-color: rgba(241, 184, 210, 0.74);}
+  25% {background-color: rgba(225, 166, 193, 0.906);}
+  50% {background-color: #f1dfda;}
+  75% {background-color: rgb(166, 196, 233);}
+  100% {background-color: rgba(149, 187, 233, 0.79);;} */
+  0% {
+    background-position: top left;
+    background-color: rgba(241, 184, 210, 0.74);
+  }
+  25% {
+    background-position: top right;
+    background-color: rgba(191, 179, 217, 0.76);
+  }
+  50% {
+    background-position: bottom right;
+    background-color: rgba(176, 173, 221, 0.77);
+  }
+  75% {
+    background-position: bottom left;
+    background-color: rgba(161, 167, 225, 0.78);
+  }
+  100% {
+    background-position: top left;
+    background-color: rgba(149, 187, 233, 0.79);
+  }
+}
+
+.App {
+  text-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+  max-width: 100vw;
+  animation-name: example;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+
+
+
