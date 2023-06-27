@@ -3,7 +3,7 @@ import styles from "./Projects.css";
 
 const Projects = () => {
   return (
-    <div>Projects done by me</div>
+    <div>Projects</div>
   )
 }
 
